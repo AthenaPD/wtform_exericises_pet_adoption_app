@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Edit {{form.name.data}}{% endblock %}
+{% block content %}
+<h1 class="text-center">Edit Info for {{form.name.data}}</h1>
+{% include 'pet_form.html' %}
+{% endblock %}
